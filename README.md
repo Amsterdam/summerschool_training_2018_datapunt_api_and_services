@@ -2,7 +2,7 @@
 
 This is the jupyter notebook sllde deck used for our Summerschool training 2018 which can be viewed here: 
 
-https://amsterdam.github.io/summerschool_training_2018_datapunt_api_and_services
+https://amsterdam.github.io/summerschool_training_2018_datapunt_api_and_services/
 
 ## How re-use the slides
  
