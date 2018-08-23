@@ -15,4 +15,4 @@ sql_inserts/
 *.json
 .pytest_cache/v/cache.pytest_cache/
 .pytest_cache/
-docs/js/.git
+docs/static/.git
