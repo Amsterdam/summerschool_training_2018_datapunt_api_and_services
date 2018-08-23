@@ -5,7 +5,7 @@ docs:
 	$(RM) $(BUILDDIR)
 	MKDIR $(BUILDDIR)
 	MKDIR $(BUILDDIR)/images
-	git clone https://github.com/hakimel/reveal.js.git $(BUILDDIR)/reveal.js
-	jupyter nbconvert APIs\ en\ Services.ipynb --to slides --reveal-prefix reveal.js
+	git clone https://github.com/hakimel/reveal.js.git $(BUILDDIR)/js
+	jupyter nbconvert APIs\ en\ Services.ipynb --to slides --reveal-prefix js
 	MV APIs\ en\ Services.slides.html $(BUILDDIR)/index.html
 	CP images/* $(BUILDDIR)/images

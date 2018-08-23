@@ -15,10 +15,4 @@ sql_inserts/
 *.json
 .pytest_cache/v/cache.pytest_cache/
 .pytest_cache/
-
-# Setuptools
-*.egg-info
-.eggs
-dist
-.DS_Store
-/data_old/
+docs/js/.git
