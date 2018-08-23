@@ -1,0 +1,24 @@
+.idea
+__pycache__
+*.pyc
+reports
+*.iml
+.env
+.jenkins/backups
+venv/
+.conf
+.ipynb_checkpoints
+*.egg-info
+gh-pages/
+sql_inserts/
+*.sqlite
+*.json
+.pytest_cache/v/cache.pytest_cache/
+.pytest_cache/
+
+# Setuptools
+*.egg-info
+.eggs
+dist
+.DS_Store
+/data_old/
