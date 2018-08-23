@@ -1,15 +1,14 @@
 RM        := rm -rf
 BUILDDIR  := ../docs
-GITHUBDIR := https://amsterdam.github.io/summerschool_training_2018_datapunt_api_and_services
+GITHUBDIR := https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0
 
 docs:
 	$(RM) $(BUILDDIR)
 	MKDIR $(BUILDDIR)
 	MKDIR $(BUILDDIR)/static
 	MKDIR $(BUILDDIR)/images
-	git clone https://github.com/hakimel/reveal.js.git $(BUILDDIR)/static
 	$(RM) $(BUILDDIR)/.git
-	jupyter nbconvert APIs\ en\ Services.ipynb --to slides --reveal-prefix $(GITHUBDIR)/static
+	jupyter nbconvert APIs\ en\ Services.ipynb --to slides --reveal-prefix $(GITHUBDIR)
 	MV APIs\ en\ Services.slides.html $(BUILDDIR)/index.html
 	CP images/* $(BUILDDIR)/images
 
