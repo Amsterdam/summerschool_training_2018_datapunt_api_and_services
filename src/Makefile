@@ -9,7 +9,7 @@ docs:
 	MKDIR $(BUILDDIR)/images
 	git clone https://github.com/hakimel/reveal.js.git $(BUILDDIR)/static
 	$(RM) $(BUILDDIR)/static/.git
-	jupyter nbconvert APIs\ en\ Services.ipynb --to slides --reveal-prefix $(GITHUBDIR)/static
+	jupyter nbconvert APIs\ en\ Services.ipynb --to slides --reveal-prefix /$(GITHUBDIR)/static
 	MV APIs\ en\ Services.slides.html $(BUILDDIR)/index.html
 	CP images/* $(BUILDDIR)/images
 
