@@ -15,13 +15,7 @@ jupyter notebook
 
 ## How to build and run the slides locally
 
-To build the site for local testing:
-```
-cd src
-make dev
-```
-
-To build the site for running on github.io:
+To build the site for local testing and for deployment on github.io using the docs folder:
 ```
 cd src
 make docs
